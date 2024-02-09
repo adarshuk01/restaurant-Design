@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&family=Spline+Sans:wght@400;500;600;700&display=swap");
+nav img {
+  height: 60px;
+  width: 120px;
+}
+body {
+  font-family: "Spline Sans", sans-serif;
+  color: #777;
+  line-height: 1.7;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #222;
+}
+a {
+  color: #222;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+ a:hover {
+  color: #f58d17;
+}
+img {
+  width: 100%;
+}
+section{
+  padding-top:120px;
+  padding-bottom: 120px;
+}
+.btn {
+  border-radius: 10px;
+  padding: 14px 38px;
+}
+.btn-brand {
+  color: white;
+  background-color: #0bd83e;
+  font-weight: 500;
+  border-color: #0bd83e;
+}
+.btn-brand:hover {
+  color: white;
+  background-color: #049c07;
+}
+.bg-cover {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+#carouselExampleControls .slide-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/masaladosa.jpg);
+}
+.slide-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/sadhya.jpg);
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 40px;
+  height: 70px;
+  margin: auto;
+  border-radius: 10px;
+}
+#carouselExampleControls h6::after,
+#carouselExampleControls h6::before {
+  content: "";
+  width: 40px;
+  height: 4px;
+  background-color: #fff;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
+}
+#about .divider{
+  width: 60px;
+  height: 5px;
+  display: block;
+  background-color: #f58d17;
+}
+.intro-text{
+  margin-bottom: 40px;
+  text-align: center;
+}
+.intro-text p{
+  max-width: 500px;
+  margin: 16px auto 0 auto;
+
+}
+#menu .nav-pills .nav-link{
+  background-color: #fff;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: black;
+  border-radius: 100px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  
+}
+#menu .nav-pills .nav-link.active{
+background-color: #0bd83e;
+color: #fff;
+display: inline;
+}
+.menu-item .stars{
+  color: #f58d17;
+}
+
+.shadow-on-hover{
+  transition: all 0.2s;
+}
+.shadow-on-hover:hover{
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+.menu-item img {
+  border-radius: 16px 16px 0  0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+ section .menu-del{
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('images/bgimg.svg');
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 16px;
+ }
+  #features{
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('images/whyus.svg');
+  
+  
+ }
+ .features{
+  border: 2px solid #777;
+  border-radius: 16px;
+ }
+ .features-icon{
+  background-color:#0bd83e;
+  height: 80px;
+  width: 80px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  align-content: center;
+  display: inline-grid;
+  border-radius: 25px;
+ }
+ .team-member img{
+  max-width: 140px;
+  box-shadow: -10px -10px 0 #0bd83e;
+  border-radius: 100px;
+  border: 2px solid #fff;
+ }
+ #review{
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('images/review.svg');
+  
+ }
+ .review img{
+  width: 75px;
+  height: 90px;
+  
+ }
+ 
+ .review .quote-icon{
+  color: #f58d17;
+ font-size: 54px;
+ }
+ .person .stars{
+  color: #f58d17;
+ }
+ .carousel-indicators {
+  margin-bottom: -3rem;
+ }
+ #reservation .form-control{
+  border-radius: 0;
+ }
+ #reservation .form-control:focus{
+  box-shadow: none;
+  border-color: #0bd83e;
+ }
+ #reservation input.form-control{
+  height: 47px;
+ }
+ .insta-post{
+  position: relative;
+  overflow: hidden;
+ }
+ .insta-post .insta-btn{
+  width: 90px;
+  height: 90px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 25px;
+transform: translate(-50%,-50%);
+opacity: 0;
+
+ }
+ .insta-post img{
+  transition: all 0.4s;
+ }
+ .insta-post:hover img{
+  transform: scale(1.2);
+ }
+ .insta-post:hover .insta-btn{
+  opacity: 1;
+ }
